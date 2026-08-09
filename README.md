@@ -63,9 +63,8 @@
 
 | 🎫 Monitor & Bot de Ingressos | 📦 Extração de Pedidos GM | 🎁 Monitor de Recompensas |
 |:---|:---|:---|
-| Bot que monitora a disponibilidade de ingressos em uma plataforma de eventos via engenharia reversa da API privada (React SPA + backend em Cloud Run), com gestão de ciclo de vida de JWT (renovação proativa) e reserva automática. **Validado em produção** — reservou um ingresso em tempo real durante um evento esgotado. | Scraper com Playwright que automatiza a extração de status de pedidos de um portal SAP WebDynpro, com login via Azure AD, consolidando dados de **8 filiais** de uma rede de concessionárias GM a partir de uma planilha de entrada. **896 pedidos extraídos, 0 falhas.** | Script que monitora a disponibilidade de recompensas em uma plataforma corporativa (Comunitive) via engenharia reversa de API, com notificações desktop e backoff exponencial com jitter. **Validado em produção.** |
+| Bot que monitora a disponibilidade de ingressos em uma plataforma de eventos via engenharia reversa da API privada (React SPA + backend em Cloud Run), com gestão de ciclo de vida de JWT (renovação proativa) e reserva automática. **Validado em produção** — reservou um ingresso em tempo real durante um evento esgotado. | Scraper com Playwright que automatiza a extração de status de pedidos de um portal SAP WebDynpro, consolidando dados de **8 filiais** de uma rede de concessionárias GM a partir de uma planilha de entrada. **896 pedidos extraídos, 0 falhas.** | Script que monitora a disponibilidade de recompensas em uma plataforma corporativa (Comunitive) via engenharia reversa de API, com notificações desktop e backoff exponencial com jitter. **Validado em produção.** |
 | `Python` `requests` `JWT` `Reverse Engineering` | `Python` `Playwright` `SAP WebDynpro` `Excel` | `Python` `requests` `plyer` |
-| 🔒 Repositório privado | 🔒 Repositório privado | 🔒 Repositório privado |
 
 </div>
 
@@ -123,46 +122,6 @@ joao@dev:~$ echo $STATUS
 <img src="https://raw.githubusercontent.com/aguiarjoaovitor/aguiarjoaovitor/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="100%"/>
 
 </div>
-
-<details>
-<summary>⚙️ Como ativar a animação (configuração única)</summary>
-<br/>
-
-Crie o arquivo `.github/workflows/snake.yml` **neste mesmo repositório** (`aguiarjoaovitor/aguiarjoaovitor` — o repositório especial que gera o seu perfil) com o conteúdo abaixo. Ele gera a animação automaticamente todo dia:
-
-```yaml
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 3 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        id: snake-gif
-        with:
-          github_user_name: aguiarjoaovitor
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-Depois de commitar, vá em **Actions → Generate Snake Animation → Run workflow** pra rodar a primeira vez. A partir daí, a imagem no README passa a atualizar sozinha todos os dias.
-</details>
 
 <br/>
 
