@@ -94,8 +94,8 @@ joao@dev:~$ echo $STATUS
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=aguiarjoaovitor&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=00E5FF&text_color=C9D1D9&ring_color=00E5FF"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aguiarjoaovitor&layout=compact&hide_border=true&bg_color=0D1117&title_color=00E5FF&text_color=C9D1D9&langs_count=8"/>
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=aguiarjoaovitor&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=00E5FF&text_color=C9D1D9&ring_color=00E5FF"/>
+<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=aguiarjoaovitor&layout=compact&hide_border=true&bg_color=0D1117&title_color=00E5FF&text_color=C9D1D9&langs_count=8"/>
 
 <img src="https://streak-stats.demolab.com?user=aguiarjoaovitor&theme=dark&hide_border=true&background=0D1117&stroke=00E5FF&ring=00E5FF&fire=00E5FF&currStreakLabel=00E5FF&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E"/>
 
@@ -109,7 +109,7 @@ joao@dev:~$ echo $STATUS
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=aguiarjoaovitor&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=4"/>
+<img src="https://trophygithubreadmelang.cybee.dpdns.org/?username=aguiarjoaovitor&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=4"/>
 
 </div>
 
