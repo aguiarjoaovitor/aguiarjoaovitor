@@ -19,12 +19,11 @@
 
 <h2 align="center">🧠 <code>SOBRE_MIM</code></h2>
 
-- 🎓 Estudante de **Ciência da Computação** na **UFU** (Universidade Federal de Uberlândia) — formatura prevista para **2027**
-- 💼 Estagiário de **Supply Chain** na **Autus Chevrolet**, rede de concessionárias GM
-- 🔍 Curioso por natureza: gosto de entender **como as coisas funcionam por dentro** antes de usá-las — de APIs privadas a portais corporativos SAP
-- ⚙️ Foco atual: **automação de processos**, **web scraping** e **engenharia reversa de APIs**
-- 🧩 Cada projeto pessoal nasce de um problema real do dia a dia — e vira desculpa pra aprender algo novo, uma função de cada vez
-- 📊 Também transito bem entre **dados e produtividade**: Excel, Power Query e Power BI fazem parte da rotina
+- Estudante de **Ciência da Computação** na **UFU** (Universidade Federal de Uberlândia) — formatura prevista para **2027**
+- Estagiário de **Supply Chain** na **Autus Chevrolet**, rede de concessionárias GM
+- Foco atual: **automação de processos**, **web scraping** e **engenharia reversa de APIs**
+- Cada projeto pessoal nasce de um problema real do dia a dia — e vira desculpa pra aprender algo novo, uma função de cada vez
+- Também transito bem entre **dados e produtividade**: Excel, Power Query e Power BI fazem parte da rotina
 
 <br/>
 
@@ -45,13 +44,13 @@
 <img src="https://custom-icon-badges.demolab.com/badge/Power%20BI-F1C912?style=for-the-badge&logo=power-bi&logoColor=black"/>
 <img src="https://img.shields.io/badge/Power%20Automate-0066FF?style=for-the-badge&logoColor=white"/>
 <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white"/>
+<img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white"/>
 
 **Ferramentas & Controle de Versão**
 
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
-<img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white"/>
 
 </div>
 
@@ -61,14 +60,14 @@
 
 <div align="center">
 
-| 🎫 Monitor & Bot de Ingressos | 📦 Extração de Pedidos GM | 🎁 Monitor de Recompensas |
+| Monitor & Bot de Ingressos | Extração de Pedidos GM | Monitor de Recompensas |
 |:---|:---|:---|
 | Bot que monitora a disponibilidade de ingressos em uma plataforma de eventos via engenharia reversa da API privada (React SPA + backend em Cloud Run), com gestão de ciclo de vida de JWT (renovação proativa) e reserva automática. **Validado em produção** — reservou um ingresso em tempo real durante um evento esgotado. | Scraper com Playwright que automatiza a extração de status de pedidos de um portal SAP WebDynpro, consolidando dados de **8 filiais** de uma rede de concessionárias GM a partir de uma planilha de entrada. **896 pedidos extraídos, 0 falhas.** | Script que monitora a disponibilidade de recompensas em uma plataforma corporativa (Comunitive) via engenharia reversa de API, com notificações desktop e backoff exponencial com jitter. **Validado em produção.** |
 | `Python` `requests` `JWT` `Reverse Engineering` | `Python` `Playwright` `SAP WebDynpro` `Excel` | `Python` `requests` `plyer` |
 
 </div>
 
-> 📌 Todos os projetos acima já foram validados em cenários reais de produção. Versões públicas e sanitizadas estão a caminho para este perfil.
+> Todos os projetos acima já foram validados em cenários reais de produção. Versões públicas e sanitizadas estão a caminho para este perfil.
 
 <br/>
 
@@ -77,7 +76,7 @@
 ```bash
 joao@dev:~$ cat objetivos_2026.log
 
-[✔] Bot de reserva de ingressos (ARQZIN) ....... validado em produção
+[✔] Bot de reserva de ingressos  ............... validado em produção
 [✔] Scraper do portal GM ....................... 896 pedidos, 0 falhas
 [ ] Pipeline de Power Query p/ dados de pedidos . tratando linhas multi-item
 [ ] Aprofundar conhecimento em Power BI ......... em andamento
