@@ -22,7 +22,6 @@
 - Estudante de **Ciência da Computação** na **UFU** (Universidade Federal de Uberlândia) — formatura prevista para **2027**
 - Estagiário de **Supply Chain** na **Autus Chevrolet**, rede de concessionárias GM
 - Foco atual: **automação de processos**, **web scraping** e **engenharia reversa de APIs**
-- Cada projeto pessoal nasce de um problema real do dia a dia — e vira desculpa pra aprender algo novo, uma função de cada vez
 - Também transito bem entre **dados e produtividade**: Excel, Power Query e Power BI fazem parte da rotina
 
 <br/>
@@ -60,10 +59,10 @@
 
 <div align="center">
 
-| Monitor & Bot de Ingressos | Extração de Pedidos GM | Monitor de Recompensas |
+| Buscador de Preços de Pneus | Extração de Pedidos GM | Monitor de Recompensas |
 |:---|:---|:---|
-| Bot que monitora a disponibilidade de ingressos em uma plataforma de eventos via engenharia reversa da API privada (React SPA + backend em Cloud Run), com gestão de ciclo de vida de JWT (renovação proativa) e reserva automática. **Validado em produção** — reservou um ingresso em tempo real durante um evento esgotado. | Scraper com Playwright que automatiza a extração de status de pedidos de um portal SAP WebDynpro, consolidando dados de **8 filiais** de uma rede de concessionárias GM a partir de uma planilha de entrada. **896 pedidos extraídos, 0 falhas.** | Script que monitora a disponibilidade de recompensas em uma plataforma corporativa (Comunitive) via engenharia reversa de API, com notificações desktop e backoff exponencial com jitter. **Validado em produção.** |
-| `Python` `requests` `JWT` `Reverse Engineering` | `Python` `Playwright` `SAP WebDynpro` `Excel` | `Python` `requests` `plyer` |
+| Scraper híbrido (requests/BeautifulSoup + Playwright) que automatiza a busca de preços de pneus em 6 varejistas online, consolidando os resultados a partir de uma planilha de entrada com a lista de pneus buscados. | Scraper com Playwright que automatiza a extração de status de pedidos de um portal SAP WebDynpro, consolidando dados de **8 filiais** de uma rede de concessionárias GM a partir de uma planilha de entrada. **896 pedidos extraídos, 0 falhas.** | Script que monitora a disponibilidade de recompensas em uma plataforma corporativa (Comunitive) via engenharia reversa de API, com notificações desktop e backoff exponencial com jitter. **Validado em produção.** |
+| `Python` `requests` `Playwright` `BeautifulSoup` | `Python` `Playwright` `SAP WebDynpro` `Excel` | `Python` `requests` `plyer` |
 
 </div>
 
