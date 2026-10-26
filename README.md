@@ -23,6 +23,7 @@
 - Estagiário de **Supply Chain** na **Autus Chevrolet**, rede de concessionárias GM
 - Foco atual: **automação de processos**, **web scraping** e **engenharia reversa de APIs**
 - Também transito bem entre **dados e produtividade**: Excel, Power Query e Power BI fazem parte da rotina
+- Explorando **desenvolvimento web full-stack** (HTML, CSS, JavaScript, Java/Servlets, MySQL) e **agentes de IA**
 
 <br/>
 
@@ -34,8 +35,17 @@
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/Haskell-5e5086?style=for-the-badge&logo=haskell&logoColor=white"/>
 <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logoColor=white"/>
+
+**Web & Banco de Dados**
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java%20Servlets-007396?style=for-the-badge&logo=java&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
 
 **Dados & Automação**
 
@@ -64,9 +74,14 @@
 | Scraper híbrido (requests/BeautifulSoup + Playwright) que automatiza a busca de preços de pneus em 6 varejistas online, consolidando os resultados a partir de uma planilha de entrada com a lista de pneus buscados. | Scraper com Playwright que automatiza a extração de status de pedidos de um portal SAP WebDynpro, consolidando dados de **8 filiais** de uma rede de concessionárias GM a partir de uma planilha de entrada. **896 pedidos extraídos, 0 falhas.** | Script que monitora a disponibilidade de recompensas em uma plataforma corporativa (Comunitive) via engenharia reversa de API, com notificações desktop e backoff exponencial com jitter. **Validado em produção.** |
 | `Python` `requests` `Playwright` `BeautifulSoup` | `Python` `Playwright` `SAP WebDynpro` `Excel` | `Python` `requests` `plyer` |
 
+| Aplicação Web Full-Stack | Extração da Tabela FIPE | Divulgação de Vulnerabilidade |
+|:---|:---|:---|
+| Aplicação web full-stack (em desenvolvimento): front-end em HTML, CSS e JavaScript e back-end em Java (Servlets) com conexão a MySQL. Projeto da disciplina de Programação para Internet. | Extração de dados da Tabela FIPE via engenharia reversa da API, com armazenamento em **SQLite** e exportação por marca, modelo e ano — apoiando as áreas de pricing e seminovos. | Identificação e **divulgação responsável** de uma falha de autorização (IDOR/BOLA) em uma plataforma de ingressos, via engenharia reversa de API. **Reconhecida pela empresa.** |
+| `HTML` `CSS` `JavaScript` `Java` `Servlets` `MySQL` | `Python` `requests` `SQLite` | `DevTools` `HAR` `API` `Segurança` |
+
 </div>
 
-> Todos os projetos acima já foram validados em cenários reais de produção. Versões públicas e sanitizadas estão a caminho para este perfil.
+> Projetos validados em cenários reais; parte deles roda em ambiente corporativo. Versões públicas e sanitizadas, quando possível, estão a caminho para este perfil.
 
 <br/>
 
@@ -77,10 +92,12 @@ joao@dev:~$ cat objetivos_2026.log
 
 [✔] Bot de reserva de ingressos  ............... validado em produção
 [✔] Scraper do portal GM ....................... 896 pedidos, 0 falhas
+[✔] Extração da Tabela FIPE .................... API + SQLite
+[ ] Aplicação web full-stack (Prog. Internet) .. HTML/CSS/JS + Java/MySQL
 [ ] Pipeline de Power Query p/ dados de pedidos . tratando linhas multi-item
-[ ] Aprofundar conhecimento em Power BI ......... em andamento
-[ ] Generalizar tooling de scraping ............. novas plataformas
-[ ] Concluir Ciência da Computação (UFU) ........ previsão: 2027
+[ ] Aprofundar Power BI e agentes de IA ........ em andamento
+[ ] Generalizar tooling de scraping ............ novas plataformas
+[ ] Concluir Ciência da Computação (UFU) ....... previsão: 2027
 
 joao@dev:~$ echo $STATUS
 > aprendendo, construindo, documentando.
